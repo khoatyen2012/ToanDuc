@@ -20,7 +20,7 @@ public class StopBangNhau : MonoBehaviour {
     {
         PopUpController.instance.HideStopBangNhau();
        
-            GameController.instance.ShowLevel2();
+            GameController.instance.ShowLevel3();
             SoundManager.Instance.PlayAudioClick();
       
     }

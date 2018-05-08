@@ -65,7 +65,7 @@ public class StopGame : MonoBehaviour {
     public void setData()
     {
         LoadAdsInterstitial();
-        if ((GameController.instance.sumCoin < 150 && GameController.instance.mGrade != 1) || (GameController.instance.sumCoin < 130 && GameController.instance.mGrade == 1))
+        if ((GameController.instance.sumCoin < 150 && GameController.instance.mGrade != 1) || (GameController.instance.sumCoin < 80 && GameController.instance.mGrade == 1))
         {
             txtHoanThanh.text = ClsLanguage.doChuaVuotQua() + GameController.instance.level;
             rate.SetSprite("khongsao");
@@ -85,11 +85,11 @@ public class StopGame : MonoBehaviour {
             txtHoanThanh.text = ClsLanguage.doVuotQua() + GameController.instance.level;
             if (GameController.instance.mGrade == 1)
             {
-                if (GameController.instance.sumCoin >= 260)
+                if (GameController.instance.sumCoin >= 160)
                 {
                     rate.SetSprite("basao");
                 }
-                else if (GameController.instance.sumCoin > 240)
+                else if (GameController.instance.sumCoin > 140)
                 {
                     rate.SetSprite("haisao");
                 }
@@ -100,11 +100,11 @@ public class StopGame : MonoBehaviour {
             }
             else
             {
-                if (GameController.instance.sumCoin >= 300)
+                if (GameController.instance.sumCoin >= 200)
                 {
                     rate.SetSprite("basao");
                 }
-                else if (GameController.instance.sumCoin > 280)
+                else if (GameController.instance.sumCoin > 170)
                 {
                     rate.SetSprite("haisao");
                 }
@@ -190,11 +190,11 @@ public class StopGame : MonoBehaviour {
         string tam = "";
         if (GameController.instance.mGrade == 1)
         {
-            tam = "/260";
+            tam = "/160";
         }
         else
         {
-            tam = "/300";
+            tam = "/200";
         }
         txtTongDiem.text = ClsLanguage.doTongDiem() + GameController.instance.sumCoin + tam;
        

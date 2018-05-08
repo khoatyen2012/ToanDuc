@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2BBB481E-CAB7-F370-2049-0F7491879EC1}</ProjectGuid>
+    <ProjectGuid>{34EB3820-5D01-6584-6D54-8B399B3D1611}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -104,25 +104,25 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="Common">
- <HintPath>D:/vtc/Violympic1New/Assets/Plugins/UnityPurchasing/Bin/Common.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/ToanDuc/ToanDuc/Assets/Plugins/UnityPurchasing/Bin/Common.dll</HintPath>
  </Reference>
  <Reference Include="Editor">
- <HintPath>D:/vtc/Violympic1New/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/ToanDuc/ToanDuc/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
  </Reference>
  <Reference Include="Security">
- <HintPath>D:/vtc/Violympic1New/Assets/Plugins/UnityPurchasing/Bin/Security.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/ToanDuc/ToanDuc/Assets/Plugins/UnityPurchasing/Bin/Security.dll</HintPath>
  </Reference>
  <Reference Include="Stores">
- <HintPath>D:/vtc/Violympic1New/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/ToanDuc/ToanDuc/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
  </Reference>
  <Reference Include="Apple">
- <HintPath>D:/vtc/Violympic1New/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/ToanDuc/ToanDuc/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
  </Reference>
  <Reference Include="Tizen">
- <HintPath>D:/vtc/Violympic1New/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/ToanDuc/ToanDuc/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
  </Reference>
  <Reference Include="winrt">
- <HintPath>D:/vtc/Violympic1New/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/ToanDuc/ToanDuc/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

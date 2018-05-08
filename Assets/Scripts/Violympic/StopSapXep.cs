@@ -19,7 +19,7 @@ public class StopSapXep : MonoBehaviour {
     void btnContinute_OnClick()
     {
         PopUpController.instance.HideStopSapXep();
-        GameController.instance.ShowLevel2();
+        GameController.instance.ShowLevel3();
         SoundManager.Instance.PlayAudioClick();
     }
 

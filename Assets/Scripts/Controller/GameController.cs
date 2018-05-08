@@ -220,6 +220,7 @@ public class GameController : MonoBehaviour {
         PopUpController.instance.ShowStartThongThai();
     }
 
+	/*
     public void ShowLevel2()
     {
         switch (GameController.instance.mGrade)
@@ -276,6 +277,7 @@ public class GameController : MonoBehaviour {
        
       
     }
+    */
 
     public void ShowLevel1()
     {
@@ -289,7 +291,17 @@ public class GameController : MonoBehaviour {
                 }
                 else
                 {
-                    PopUpController.instance.ShowStartDinhNui(1);
+                    //PopUpController.instance.ShowStartDinhNui(1);
+			     chon = UnityEngine.Random.Range(0, 3);
+				if (chon == 0)
+				{
+					PopUpController.instance.ShowStartSapXep();
+				}
+				else
+				{
+					PopUpController.instance.ShowStartBangNhau(2);
+				}
+
                 }
                 break;
             case 3:
@@ -299,7 +311,15 @@ public class GameController : MonoBehaviour {
                 }
                 else
                 {
-                    PopUpController.instance.ShowStartDinhNui(1);
+				 chon = UnityEngine.Random.Range(0, 3);
+				if (chon == 0)
+				{
+					PopUpController.instance.ShowStartSapXep();
+				}
+				else
+				{
+					PopUpController.instance.ShowStartBangNhau(2);
+				}
                 }
 
                 break;

@@ -963,81 +963,24 @@ public class QuestionBNLop1 : MonoBehaviour {
                         }
                         tmg1.Add(vo);
                         tmg1.Add(vi);
-                    }
-                    else if (chon1 == 2 || chon1 == 3)
-                    {
-                        if (chon1 == 2)
-                        {
-                            if (i > 1)
-                            {
-                                vo = new PhepToan(ClsLanguage.doSoLienTruoc() + (i + 1), ""+i, "number");
-                                vi = new PhepToan("" + i, ""+i, "number");
-                            }
-                            else
-                            {
-                                vo = new PhepToan(ClsLanguage.doSoLienSau() + (i - 1), ""+i, "number");
-                                vi = new PhepToan("" + i, ""+i, "number");
-                            }
-
-                        }
-                        else
-                        {
-                            vo = new PhepToan(ClsLanguage.doSoLienSau() + (i - 1), ""+i, "number");
-                            vi = new PhepToan("" + i, ""+i, "number");
-                        }
-                        tmg1.Add(vo);
-                        tmg1.Add(vi);
-                    }
+                    }                   
                     else
                     {
-                        if (type == 7)
-                        {
-                            List<PhepToan> query1 = lstRank.FindAll(r =>int.Parse(r.Ketqua) == i);
-                            if (query1.Count > 0)
-                            {
-                                int vt = UnityEngine.Random.Range(0, query1.Count);
-
-
-
-                                string trs = "";
-                                if (vt % 2 == 0)
-                                {
-                                    if (i > 1)
-                                    {
-                                        trs = ClsLanguage.doSoLienTruoc() + (i + 1);
-                                    }
-                                    else
-                                    {
-                                        trs = ClsLanguage.doSoLienSau() + (i - 1);
-                                    }
-                                }
-                                else
-                                {
-                                    trs = ClsLanguage.doSoLienSau() + (i - 1);
-                                }
-
-                                vo = new PhepToan("" + trs, ""+i, "number");
-                                vi = new PhepToan("" + query1[vt].Congthuc, ""+i, "number");
-
-
-                            }
-                            else
-                            {
-                                //xem xet
-                                vo = new PhepToan(ClsLanguage.doNumber() + i, ""+i, "number");
-                                vi = new PhepToan("" + i, ""+i, "number");
-                            }
-
-
-
-                        }
-                        else
-                        {
-                            vo = new PhepToan(ClsLanguage.doSoLienSau() + (i - 1), ""+i, "number");
-                            vi = new PhepToan("" + i, ""+i, "number");
-                        }
-                        tmg1.Add(vo);
-                        tmg1.Add(vi);
+						List<PhepToan> query1 = lstRank.FindAll(r => int.Parse(r.Ketqua) == i);
+						if (query1.Count > 0)
+						{
+							int vt = UnityEngine.Random.Range(0, query1.Count);
+							vo = new PhepToan("" + query1[vt].Congthuc, ""+i, "number");
+							vi = new PhepToan("" + i, ""+i, "number");
+						}
+						else
+						{
+							//xem xet
+							vo = new PhepToan(ClsLanguage.doNumber() + i, ""+i, "number");
+							vi = new PhepToan("" + i, ""+i, "number");
+						}
+						tmg1.Add(vo);
+						tmg1.Add(vi);
                     }
                 }
 

@@ -703,21 +703,7 @@ public class QuestionSapXepL1 : MonoBehaviour {
                 }
 
                 vo = new PhepToan("" + i, ""+i, loai);
-            }
-            else if ((chon == 2) && (type == 5 || type == 6))
-            {
-                loai = "number";
-                if (i > 1)
-                {
-                    vo = new PhepToan(ClsLanguage.doSoLienTruoc() + (i + 1), ""+i, loai);
-
-                }
-                else
-                {
-                    vo = new PhepToan(ClsLanguage.doSoLienSau() + (i - 1), ""+i, loai);
-
-                }
-            }
+            }            
             else if (chon == 2 && type == 2)
             {
                 vo = new PhepToan("" + i, ""+i, loai);

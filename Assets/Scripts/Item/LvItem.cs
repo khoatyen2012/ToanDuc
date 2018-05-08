@@ -46,11 +46,11 @@ public class LvItem : MonoBehaviour {
             {
                 if (GameController.instance.mGrade == 1)
                 {
-                    if (int.Parse(GameController.instance.mangTong[gt - 1]) >= 260)
+                    if (int.Parse(GameController.instance.mangTong[gt - 1]) >= 160)
                     {
                         spiteRate.SetSprite("basao");
                     }
-                    else if (int.Parse(GameController.instance.mangTong[gt - 1]) > 240)
+                    else if (int.Parse(GameController.instance.mangTong[gt - 1]) > 140)
                     {
                         spiteRate.SetSprite("haisao");
                     }
@@ -61,11 +61,11 @@ public class LvItem : MonoBehaviour {
                 }
                 else
                 {
-                    if (int.Parse(GameController.instance.mangTong[gt - 1]) >= 300)
+                    if (int.Parse(GameController.instance.mangTong[gt - 1]) >= 200)
                     {
                         spiteRate.SetSprite("basao");
                     }
-                    else if (int.Parse(GameController.instance.mangTong[gt - 1]) > 280)
+                    else if (int.Parse(GameController.instance.mangTong[gt - 1]) > 170)
                     {
                         spiteRate.SetSprite("haisao");
                     }

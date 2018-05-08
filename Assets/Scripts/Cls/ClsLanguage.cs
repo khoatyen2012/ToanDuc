@@ -237,27 +237,7 @@ public class ClsLanguage {
         return vaothi;
     }
 
-    public static string doSoLienTruoc()
-    {
-        string vaothi = "Số liền trước ";
-        if (GameController.instance.tienganh)
-        {
-            vaothi = "Previous number ";
-        }
 
-        return vaothi;
-    }
-
-    public static string doSoLienSau()
-    {
-        string vaothi = "Số liền sau ";
-        if (GameController.instance.tienganh)
-        {
-            vaothi = "Next number ";
-        }
-
-        return vaothi;
-    }
 
     public static string doBanCanMuaVip()
     {
