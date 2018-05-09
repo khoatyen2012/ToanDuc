@@ -18,7 +18,7 @@ public class StartThongThai : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         btnPlay.OnClick += onClick_btnPlay;
-        if (GameController.instance.tienganh)
+        if (GameController.instance.tienganh!=1)
         {
             spTitle.SetSprite("monkey");
         }

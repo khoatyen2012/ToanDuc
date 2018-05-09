@@ -22,7 +22,7 @@ public class GameController : MonoBehaviour {
     public int sumTime;
     public int level = 1;
     public int vuotqua = 0;
-    public bool tienganh = true;
+    public int tienganh = 0;
     public List<DinhNui> lstSumTam = new List<DinhNui>();   
     public List<DinhNui> lstSum5 = new List<DinhNui>();
     public List<DinhNui> lstSum4 = new List<DinhNui>();
@@ -71,7 +71,7 @@ public class GameController : MonoBehaviour {
                  if (lstSum2.Count < 1)
                 {
                     TextAsset txt;
-                    if (tienganh)
+                    if (tienganh==0)
                     {
                         txt = (TextAsset)Resources.Load("violympica2", typeof(TextAsset));
                     }
@@ -98,7 +98,7 @@ public class GameController : MonoBehaviour {
                 if (lstSum3.Count < 1)
                 {
                     TextAsset txt;
-                    if (tienganh)
+                    if (tienganh==0)
                     {
                         txt = (TextAsset)Resources.Load("violympica3", typeof(TextAsset));
                     }
@@ -124,7 +124,7 @@ public class GameController : MonoBehaviour {
                 if (lstSum4.Count < 1)
                 {
                     TextAsset txt;
-                    if (tienganh)
+                    if (tienganh==0)
                     {
                         txt = (TextAsset)Resources.Load("violympica4", typeof(TextAsset));
                     }
@@ -151,7 +151,7 @@ public class GameController : MonoBehaviour {
                 if (lstSum5.Count < 1)
                 {
                     TextAsset txt;
-                    if (tienganh)
+                    if (tienganh==0)
                     {
                         txt = (TextAsset)Resources.Load("violympica5", typeof(TextAsset));
                     }
@@ -204,15 +204,18 @@ public class GameController : MonoBehaviour {
 
  
 
-    public bool CheckNgonNgu()
+    public int CheckNgonNgu()
     {
-        bool ok = true;
+  
         string ngonngu = Application.systemLanguage.ToString().ToLower().Trim();
-        if (ngonngu.Equals("vietnamese"))
-        {
-            ok = false;
-        }
-        return ok;
+		if (ngonngu.Equals ("vietnamese")) {
+			return 1;
+		} else if (ngonngu.Equals ("german")) {
+			return 2;
+		} else {
+			return 0;
+		}
+      
     }
 
     public void ShowLevel3()

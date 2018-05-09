@@ -2,15 +2,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Cls\ClsLanguage.cs">
     <Files>
-      <File FileName="Assets\Scripts\Violympic\StopGame.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Item\LvItem.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Violympic\QuestionBNLop1.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Violympic\QuestionSapXepL1.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Violympic\QuestionBangNhau.cs" Line="1470" Column="22" />
-      <File FileName="Assets\Scripts\Violympic\QuestionSapXep.cs" Line="1298" Column="36" />
-      <File FileName="Assets\Scripts\Violympic\QuestionMonkey.cs" Line="2009" Column="85" />
-      <File FileName="Assets\Scripts\Violympic\QuestionDN.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Cls\ClsLanguage.cs" Line="240" Column="1" />
+      <File FileName="Assets\Scripts\Cls\ClsLanguage.cs" Line="439" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

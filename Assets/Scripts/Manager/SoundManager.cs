@@ -58,7 +58,7 @@ public class SoundManager : MonoBehaviour
 
     public void PlayAudioChucMung1()
     {
-        if (GameController.instance.tienganh)
+        if (GameController.instance.tienganh!=1)
         {
             tk2dUIAudioManager.Instance.Play(arrAudioClip[27]);
         }
@@ -70,7 +70,7 @@ public class SoundManager : MonoBehaviour
 
     public void PlayAudioChucMung2()
     {
-        if (GameController.instance.tienganh)
+        if (GameController.instance.tienganh!=1)
         {
             tk2dUIAudioManager.Instance.Play(arrAudioClip[27]);
         }
@@ -85,7 +85,7 @@ public class SoundManager : MonoBehaviour
 
     public void PlayAudioChucMung3()
     {
-        if (GameController.instance.tienganh)
+        if (GameController.instance.tienganh!=1)
         {
             tk2dUIAudioManager.Instance.Play(arrAudioClip[26]);
         }
@@ -99,7 +99,7 @@ public class SoundManager : MonoBehaviour
 
     public void PlayAudioChucMung4()
     {
-        if (GameController.instance.tienganh)
+        if (GameController.instance.tienganh!=1)
         {
             //tk2dUIAudioManager.Instance.Play(arrAudioClip[26]);
         }
@@ -113,7 +113,7 @@ public class SoundManager : MonoBehaviour
    
     public void PlayAudioChucDung1(int chon)
     {
-        if (GameController.instance.tienganh)
+        if (GameController.instance.tienganh!=1)
         {
             if (chon % 2 == 0)
             {
@@ -131,7 +131,7 @@ public class SoundManager : MonoBehaviour
     }
     public void PlayAudioChucDung2(int chon)
     {
-        if (GameController.instance.tienganh)
+        if (GameController.instance.tienganh!=1)
         {
             if (chon % 2 == 0)
             {
@@ -149,7 +149,7 @@ public class SoundManager : MonoBehaviour
     }
     public void PlayAudioChucDung3(int chon)
     {
-        if (GameController.instance.tienganh)
+        if (GameController.instance.tienganh!=1)
         {
             if (chon % 2 == 0)
             {
@@ -167,7 +167,7 @@ public class SoundManager : MonoBehaviour
     }
     public void PlayAudioChucDung4(int chon)
     {
-        if (GameController.instance.tienganh)
+        if (GameController.instance.tienganh!=1)
         {
             if (chon % 2 == 0)
             {
@@ -185,7 +185,7 @@ public class SoundManager : MonoBehaviour
     }
     public void PlayAudioChucDung5(int chon)
     {
-        if (GameController.instance.tienganh)
+        if (GameController.instance.tienganh!=1)
         {
             if (chon % 2 == 0)
             {
@@ -204,7 +204,7 @@ public class SoundManager : MonoBehaviour
 
     public void PlayAudioChucSai1()
     {
-        if (GameController.instance.tienganh)
+        if (GameController.instance.tienganh!=1)
         {
             tk2dUIAudioManager.Instance.Play(arrAudioClip[27]);
         }
@@ -216,7 +216,7 @@ public class SoundManager : MonoBehaviour
 
     public void PlayAudioChucSai2()
     {
-        if (GameController.instance.tienganh)
+        if (GameController.instance.tienganh!=1)
         {
             tk2dUIAudioManager.Instance.Play(arrAudioClip[27]);
         }
@@ -228,7 +228,7 @@ public class SoundManager : MonoBehaviour
 
     public void PlayAudioChucSai3()
     {
-        if (GameController.instance.tienganh)
+        if (GameController.instance.tienganh!=1)
         {
             tk2dUIAudioManager.Instance.Play(arrAudioClip[27]);
         }
@@ -240,7 +240,7 @@ public class SoundManager : MonoBehaviour
 
     public void PlayAudioChucSai4()
     {
-        if (GameController.instance.tienganh)
+        if (GameController.instance.tienganh!=1)
         {
             tk2dUIAudioManager.Instance.Play(arrAudioClip[27]);
         }
@@ -252,7 +252,7 @@ public class SoundManager : MonoBehaviour
 
     public void PlayAudioChucSai5()
     {
-        if (GameController.instance.tienganh)
+        if (GameController.instance.tienganh!=1)
         {
             tk2dUIAudioManager.Instance.Play(arrAudioClip[27]);
         }

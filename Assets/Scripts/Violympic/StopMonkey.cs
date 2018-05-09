@@ -26,7 +26,7 @@ public class StopMonkey : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         btnContinute.OnClick += btnContinute_OnClick;
-        if (GameController.instance.tienganh)
+        if (GameController.instance.tienganh!=1)
         {
             spTitle.SetSprite("monkey");
         }

@@ -252,59 +252,61 @@ public class ClsThaoTac  {
 
         if (giacu.Contains("h"))
         {
-            if (GameController.instance.tienganh)
+            if (GameController.instance.tienganh==1)
             {
-                if (int.Parse(mang[1]) == 0)
-                {
-                    ptmoi = txtTime + " o'clock";
-                }
-                else
-                {
-                    if (int.Parse(mang[1]) == 15)
-                    {
-                        ptmoi = "a quarter past " + txtTime;
-                    }
-                    else if (int.Parse(mang[1]) == 30)
-                    {
-                        ptmoi = "half past " + txtTime;
-                    }
-                    else
-                    {
-                        ptmoi = txtPhut + " past " + txtTime;
-                    }
-                }
+				if (int.Parse(mang[1]) == 0)
+				{
+					ptmoi = mang[0] + " giờ";
+				}
+				else
+				{
+					ptmoi = mang[0] + " giờ " + mang[1] + " phút";
+				} 
             }
             else
             {
-                if (int.Parse(mang[1]) == 0)
-                {
-                    ptmoi = mang[0] + " giờ";
-                }
-                else
-                {
-                    ptmoi = mang[0] + " giờ " + mang[1] + " phút";
-                }
+              
+				if (int.Parse(mang[1]) == 0)
+				{
+					ptmoi = txtTime + " o'clock";
+				}
+				else
+				{
+					if (int.Parse(mang[1]) == 15)
+					{
+						ptmoi = "a quarter past " + txtTime;
+					}
+					else if (int.Parse(mang[1]) == 30)
+					{
+						ptmoi = "half past " + txtTime;
+					}
+					else
+					{
+						ptmoi = txtPhut + " past " + txtTime;
+					}
+				}
             }
         }
         else
         {
-            if (GameController.instance.tienganh)
+            if (GameController.instance.tienganh==1)
             {
-                if (int.Parse(mang[1]) != 0)
-                {
-                    if (int.Parse(mang[1]) == 15)
-                    {
-                        ptmoi = "a quarter to " + txtTime;
-                    }
-                    else
-                    {
-                        ptmoi = txtPhut + " to " + txtTime;
-                    }
-                }
+                
+				ptmoi = mang[0] + " giờ kém " + mang[1] + " phút";
             }
             else
             {
-                ptmoi = mang[0] + " giờ kém " + mang[1] + " phút";
+				if (int.Parse(mang[1]) != 0)
+				{
+					if (int.Parse(mang[1]) == 15)
+					{
+						ptmoi = "a quarter to " + txtTime;
+					}
+					else
+					{
+						ptmoi = txtPhut + " to " + txtTime;
+					}
+				}
             }
         }
         return ptmoi;
