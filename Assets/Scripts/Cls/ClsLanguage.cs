@@ -634,13 +634,13 @@ public class ClsLanguage {
 
     public static string doMuaVip()
     {
-        string vaothi = "Kích Hoạt Vip";
+		string vaothi = "Chia sẻ";
         if (GameController.instance.tienganh==0)
         {
-            vaothi = "Buy Vip";
+			vaothi = "Share Game";
 		}else if(GameController.instance.tienganh==2)
 		{
-			vaothi = "Kaufen Vip";
+			vaothi = "Spiel teilen";
 		}
 
         return vaothi;

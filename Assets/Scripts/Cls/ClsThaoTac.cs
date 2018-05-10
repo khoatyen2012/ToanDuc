@@ -262,7 +262,17 @@ public class ClsThaoTac  {
 				{
 					ptmoi = mang[0] + " giờ " + mang[1] + " phút";
 				} 
-            }
+			} else if (GameController.instance.tienganh==2)
+			{
+				if (int.Parse(mang[1]) == 0)
+				{
+					ptmoi = mang[0] + " uhr";
+				}
+				else
+				{
+					ptmoi = mang[1] + " nach " + mang[0];
+				} 
+			}
             else
             {
               
@@ -293,7 +303,16 @@ public class ClsThaoTac  {
             {
                 
 				ptmoi = mang[0] + " giờ kém " + mang[1] + " phút";
-            }
+			} else  if (GameController.instance.tienganh==2)
+			{
+				int giot = int.Parse (mang [0]);
+				if (giot == 24) {
+					giot = 1;
+				} else {
+					giot = giot + 1;
+				}
+				ptmoi = mang[1] + " vor " + giot;
+			}
             else
             {
 				if (int.Parse(mang[1]) != 0)

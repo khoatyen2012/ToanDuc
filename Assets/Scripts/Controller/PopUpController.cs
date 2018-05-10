@@ -43,7 +43,7 @@ public class PopUpController : MonoBehaviour {
     public StopMonkey stopMk;
     public StopGame stopGame;
     public GameObject hoanthanh;
-    public GameObject buyvip;
+
     public Advertise ad;
     public Grade grade;
 
@@ -68,15 +68,7 @@ public class PopUpController : MonoBehaviour {
     }
 
 
-    public void ShowBuyItem()
-    {
-
-        StartCoroutine(ieMoveDown(buyvip, showY));
-    }
-    public void HideBuyItem()
-    {
-        StartCoroutine(ieMoveUp(buyvip, hideY));
-    }
+   
 
     public void ShowHoanThanh()
     {

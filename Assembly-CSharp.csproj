@@ -91,6 +91,7 @@
      <Compile Include="Assets\Scripts\Cls\ClsLanguage.cs" />
      <Compile Include="Assets\Scripts\Cls\ClsThaoTac.cs" />
      <Compile Include="Assets\Scripts\Cls\Config.cs" />
+     <Compile Include="Assets\Scripts\Cls\ShareRate.cs" />
      <Compile Include="Assets\Scripts\Controller\GameController.cs" />
      <Compile Include="Assets\Scripts\Controller\LevelController.cs" />
      <Compile Include="Assets\Scripts\Controller\MainController.cs" />
@@ -108,8 +109,6 @@
      <Compile Include="Assets\Scripts\Move\TopBotton.cs" />
      <Compile Include="Assets\Scripts\ObjectPooling\ObjectPool.cs" />
      <Compile Include="Assets\Scripts\Purchase\Advertise.cs" />
-     <Compile Include="Assets\Scripts\Purchase\BuyItem.cs" />
-     <Compile Include="Assets\Scripts\Purchase\IAPManager.cs" />
      <Compile Include="Assets\Scripts\Violympic\Grade.cs" />
      <Compile Include="Assets\Scripts\Violympic\HoanThanh.cs" />
      <Compile Include="Assets\Scripts\Violympic\QuestionBNLop1.cs" />

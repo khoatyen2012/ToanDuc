@@ -24,8 +24,8 @@ public class MainController : MonoBehaviour {
     {
         if (GameController.instance.ckClickPlay)
         {
-            PopUpController.instance.ShowBuyItem();
-            PopUpController.instance.HideMainGame();
+			ShareRate.Share ();
+            //PopUpController.instance.HideMainGame();
             SoundManager.Instance.PlayAudioClickUI();
         }
     }

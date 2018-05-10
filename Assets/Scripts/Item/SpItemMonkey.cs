@@ -876,6 +876,11 @@ public class SpItemMonkey : MonoBehaviour {
         {
             setEnHi(this.gameObject.transform.GetChild(0).gameObject);
             this.gameObject.transform.GetChild(0).GetComponent<tk2dTextMesh>().text = pheptoan;
+			if (GameController.instance.mGrade == 1) {
+				this.gameObject.transform.GetChild (0).GetComponent<tk2dTextMesh> ().scale = new Vector3 (0.5f, 0.6f, 1);
+			} else {
+				this.gameObject.transform.GetChild (0).GetComponent<tk2dTextMesh> ().scale = new Vector3 (0.4f,0.5f,1);
+			}
         }
         mLoai = loai;
     }
