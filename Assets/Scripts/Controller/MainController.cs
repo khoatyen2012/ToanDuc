@@ -7,10 +7,21 @@ public class MainController : MonoBehaviour {
     public tk2dUIItem btnPlay; 
     public tk2dUIItem btnRank;
     public tk2dUIItem btnBuyVip;
+	public tk2dUIItem btnBe;
+	public tk2dUIItem btnDu;
 
 
    // int mGrade = 0;
 
+
+	public void btnBe_OnClick()
+	{
+		ShareRate.RateBe();
+	}
+	public void btnDu_OnClick()
+	{
+		ShareRate.RateDu();
+	}
 
 
     public void setData()
@@ -74,6 +85,8 @@ public class MainController : MonoBehaviour {
         btnRank.OnClick += btnRank_OnClick;
         btnPlay.OnClick += btnPlay_OnClick;
         btnBuyVip.OnClick += btnBuyVip_OnClick;
+		btnBe.OnClick += btnBe_OnClick;
+		btnDu.OnClick += btnDu_OnClick;
  
     
         btnPlay.gameObject.transform.GetChild(0).GetComponent<tk2dTextMesh>().text = ClsLanguage.doVaoThi();      

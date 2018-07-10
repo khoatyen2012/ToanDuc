@@ -104,25 +104,25 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="Common">
- <HintPath>D:/vtc/ToanGerman/ToanDuc/Assets/Plugins/UnityPurchasing/Bin/Common.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/ToanDuc/Assets/Plugins/UnityPurchasing/Bin/Common.dll</HintPath>
  </Reference>
  <Reference Include="Editor">
- <HintPath>D:/vtc/ToanGerman/ToanDuc/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/ToanDuc/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
  </Reference>
  <Reference Include="Security">
- <HintPath>D:/vtc/ToanGerman/ToanDuc/Assets/Plugins/UnityPurchasing/Bin/Security.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/ToanDuc/Assets/Plugins/UnityPurchasing/Bin/Security.dll</HintPath>
  </Reference>
  <Reference Include="Stores">
- <HintPath>D:/vtc/ToanGerman/ToanDuc/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/ToanDuc/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
  </Reference>
  <Reference Include="Apple">
- <HintPath>D:/vtc/ToanGerman/ToanDuc/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/ToanDuc/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
  </Reference>
  <Reference Include="Tizen">
- <HintPath>D:/vtc/ToanGerman/ToanDuc/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/ToanDuc/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
  </Reference>
  <Reference Include="winrt">
- <HintPath>D:/vtc/ToanGerman/ToanDuc/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/ToanDuc/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
