@@ -5,9 +5,9 @@
       <File FileName="Assets\Scripts\Cls\ClsLanguage.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Violympic\QuestionSapXepL1.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Controller\PopUpController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Controller\MainController.cs" Line="89" Column="34" />
-      <File FileName="Assets\Scripts\Cls\ShareRate.cs" Line="42" Column="4" />
-      <File FileName="Assets\Scripts\Cls\Config.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Controller\MainController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Cls\ShareRate.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Cls\Config.cs" Line="21" Column="78" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

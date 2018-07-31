@@ -5,7 +5,7 @@ public class ShareRate  {
 
 	public static string titleShare = "Quick Math";
 	public static string LinkShare = "https://play.google.com/store/apps/details?id=fallschirm.kopfrechnen.lernspiel";
-	public static string LinkBe = "https://play.google.com/store/apps/details?id=math.clouds.kids";
+	public static string LinkBe = "https://play.google.com/store/apps/details?id=toan.math.violympic";
 	public static string LinkDu = "https://play.google.com/store/apps/details?id=fallschirm.kopfrechnen.lernspiel";
 
     public static void Share()
